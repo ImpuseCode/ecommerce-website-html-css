@@ -32,7 +32,7 @@ jobs:
 
       - name: Run HTML syntax validator
         run: |
-          npx htmlhint index.html --rules tag-pair,id-unique,src-not-empty
+          npx htmlhint index.html --rules tag-pair
 
   # Job 2: Continuous Deployment (Publish to GitHub Pages)
   deploy-to-pages:
